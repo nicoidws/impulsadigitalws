@@ -4,6 +4,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="css/style.css">
   <title>IDWS | Impulsa Digital Web Studio</title>
 
   <meta name="description"
@@ -137,6 +138,16 @@
 
 <body>
 
+  <!-- MODAL PUBLICIDAD -->
+  <div id="ad-modal" class="modal">
+    <span class="close-btn">&times;</span>
+
+    <div class="modal-content">
+      <img src="img/publicidad-idws.jpg" alt="Publicidad IDWS">
+    </div>
+  </div>
+
+
   <button class="toggle" onclick="toggleMode()">Modo claro / oscuro</button>
 
   <header>
@@ -190,7 +201,7 @@
       document.body.classList.toggle("light");
     }
   </script>
-
+  <script src="js/modal-publicidad.js"></script>
 </body>
 
 </html>

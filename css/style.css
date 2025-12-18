@@ -1,0 +1,47 @@
+.modal {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.75);
+  z-index: 9999;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  overflow-y: auto;
+  padding: 20px;
+}
+
+.modal-content {
+  position: relative;
+  max-width: 480px;   /* 🔥 más chica */
+  width: 100%;
+
+  display: flex;
+  justify-content: center;
+}
+
+.modal-content img {
+  width: 100%;
+  height: auto;
+  max-height: 80vh;   /* 🔥 CLAVE: nunca más alta que la pantalla */
+  object-fit: contain;
+  border-radius: 12px;
+}
+
+/* Botón cerrar */
+.close-btn {
+  position: fixed;
+  top: 15px;
+  right: 15px;
+  background: #000;
+  color: #fff;
+  font-size: 26px;
+  width: 42px;
+  height: 42px;
+  line-height: 42px;
+  text-align: center;
+  border-radius: 50%;
+  cursor: pointer;
+  z-index: 10000;
+}

@@ -28,7 +28,7 @@ No requiere frameworks ni dependencias externas.
 
 ## 📞 Contacto
 
-📲 WhatsApp: **+56 9 3148 6309**  
+📲 WhatsApp: **+56 9 2680 9086**  
 💻 Marca: **IDWS – Impulsa Digital Web Studio**
 
 ---
